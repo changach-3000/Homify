@@ -24,7 +24,7 @@ Homify is a real estate application that helps tenants find houses and enables c
 
 - Clone this repository to your computer
   ```
-  git clone https://github.com/Lemonade-Payments/Lemonade-Mobile-v3
+  git clone https://github.com/changach-3000/Homify.git
   ```
 - cd into this folder:
   ```
