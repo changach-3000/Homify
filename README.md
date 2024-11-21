@@ -1,70 +1,152 @@
-# Getting Started with Create React App
+# Lemonade-Mobile-APP-V3
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- ## Badges
 
-## Available Scripts
+[![USES REACT NATIVE](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com) 
+[![USES EXPO](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
+[![USES GLUESTACK](https://forthebadge.com/images/badges/uses-js.svg)](https://forthebadge.com)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) -->
 
-In the project directory, you can run:
+## Summary
 
-### `npm start`
+Lemonade Payments is a digital payment platform designed for seamless and secure transactions across Africa. The mobile application allows users to manage their finances efficiently through various features such as creating accounts, authentication, home screens, transfers, and more. The platform emphasizes privacy, security, and user support.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The project is managed on a pivotal tracker board. [View the board here](https://github.com/orgs/Lemonade-Payments/projects/6/views/1)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+**Onboarding**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Users can create an account.
+2. Users can set a passcode/pin during account creation.
 
-### `npm run build`
+**Authentication**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Users can log into their account.
+2. Users can use fingerprint login.
+3. Users can reset their password.
+4. Users can use Google Authenticator for two-factor authentication.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Home**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Home screen displays user profile and wallet balance.
+2. Home screen shows paginated list of recent transactions.
+3. Home screen shows available offers.
+4. Notifications are displayed on the home screen.
 
-### `npm run eject`
+**Shortcuts**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Users can schedule transfers.
+2. Users can buy goods.
+3. Users can pay bills.
+4. Users can access their QR code.
+5. Users can request money.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Transfers**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Users can make Lemonade transfers.
+   - Fetch and create favorites.
+   - View recent wallet transfer transactions.
+   - Set privacy settings for transfers.
+2. Users can make bank transfers.
+   - Fetch and create favorites.
+   - View recent bank transactions.
+   - Set privacy settings for transfers.
+3. Users can send money via mobile money transfer.
+   - View available channels.
+   - Fetch and create favorites.
+   - View recent wallet transfer transactions.
+   - Set a 4-digit transaction pin.
+   - Set privacy settings for transfers.
+4. Users can pay bills and buy goods via mobile money transfer.
+   - Fetch and create favorites.
+   - View recent wallet transfer transactions.
+   - Set privacy settings for transfers.
+5. Users can buy airtime.
+   - Buy airtime endpoint.
+   - Fetch and create favorites.
+   - View recent wallet transfer transactions.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Settings**
 
-## Learn More
+1. Users can manage login settings.
+   - Face ID and fingerprint ID.
+2. Users can manage security settings.
+3. Users can call support.
+4. Users can view FAQs.
+5. Users can visit the website.
+6. Users can view terms of service.
+7. Users can view the privacy policy.
+8. Users can log out.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Account**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Users can view account details.
+   - Fetch account details showing total amount held in default and business accounts.
+2. Users can add a new account.
+   - Endpoint with account threshold feature.
 
-### Code Splitting
+**Transactions**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Users can view a list of transactions.
+   - Paginated transactions endpoint with filters (month, all, private, public).
+   - View total in and total out data.
+   - Export/download transactions.
+2. Users can view transaction analytics.
+   - Daily expenses graph with month filter.
+   - Distributed expenses pie chart with month filter.
+   - Total expenses with month filter.
+   - Daily income graph with month filter.
+   - Distributed income pie chart with month filter.
+   - Total income with month filter.
 
-### Analyzing the Bundle Size
+**Profile**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Users can view and edit their profile settings.
+   - Fetch profile details.
 
-### Making a Progressive Web App
+**Notifications** (coming soon)  
+**Preferences** (coming soon)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Pre-requisites
 
-### Advanced Configuration
+- **Expo CLI**: Install the Expo CLI globally using the command:
+  ```sh
+  npm install -g expo-cli
+  ```
+- Git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Getting Started
 
-### Deployment
+- Clone this repository to your computer
+  ```
+  git clone <repository-url>
+  ```
+- cd into this folder:
+  ```
+  Lemonade-Mobile-APP-V3
+  ```
+- Install Dependancies:
+  `   yarn install
+   `
+  Run the application
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+```
+    npx expo start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Authors
+
+- **Neville Oroni** -**Sharon Chang'ach**
+
+## License
+
+This project is licensed under the MIT license. See [LICENSE](https://github.com/kathy254/Questioner-UI/blob/master/LICENSE) for details.
+
+## Contribution
+
+Fork this repository, contribute, and create a pull request.
+

@@ -1,0 +1,34 @@
+{
+  "apartments": [
+    {
+      "id": 1,
+      "image": "https://www.thespruce.com/thmb/BpZG-gG2ReQwYpzrQg302pezLr0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Stocksy_txp3d216bb1tUq300_Medium_4988078-56c96ac19def4bf8ba430cf5063b6b38.jpg",
+      "name": "Sunset Villa",
+      "size": "1200 sqft",
+      "location": "123 Main St, Springfield",
+      "description": "A beautiful villa with a stunning sunset view.",
+      "vacancies": "vacant",
+      "rent_price": 1500
+    },
+    {
+      "id": 2,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfeWaIYRJ6LzX4L2efRXVzL5fYiR9w2e3nRw&s",
+      "name": "Downtown Loft",
+      "size": "900 sqft",
+      "location": "456 Market St, Springfield",
+      "description": "Modern loft in the heart of downtown.",
+      "vacancies": "full",
+      "rent_price": 2000
+    },
+    {
+      "id": 3,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/97/Studio_apartment.webp",
+      "name": "Lakeside Apartment",
+      "size": "1100 sqft",
+      "location": "789 Lakeview Ave, Springfield",
+      "description": "Cozy apartment with a beautiful lakeside view.",
+      "vacancies": "vacant",
+      "rent_price": 1800
+    }
+  ]
+}
